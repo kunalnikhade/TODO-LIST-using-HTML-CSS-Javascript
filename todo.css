@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.m-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.text{
+    letter-spacing: 20px;
+}
+.todo-cont{
+    width: 80%;
+    margin: 50px;
+}
+.todo-list{
+   width: 80%;
+}
+.todo-list-items{
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.label-cont{
+    width: 80%;
+    background-color: seagreen;
+    border-left: 3px solid rgb(2, 29, 14);
+    border-radius: 10px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.delete-btn{
+    background-color: transparent;
+   border: none;
+}
+
+.checked{
+    text-decoration: line-through;
+}
